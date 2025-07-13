@@ -1,0 +1,6 @@
+s=input("Enter the sentence: ")
+word1=input("Enter the word to replace: ")
+word2=input("Enter the word to be replaced with: ")
+s=s.replace(word1,word2)
+print("Updated String: ")
+print(s)

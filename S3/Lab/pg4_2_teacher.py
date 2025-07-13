@@ -1,7 +1,7 @@
 email=input("Enter email : ")
 flag=0
-for i in range(len(email)):
-    if email[i]=="@":
+for i in email:
+    if i=="@":
         list1=email.split("@")
         list2=list1[1].split(".")
         length=len(list2[1])

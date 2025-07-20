@@ -1,7 +1,9 @@
 #https://ohmyposh.dev/docs/themes
-#minimal
+#https://www.youtube.com/watch?v=-G6GbXGo4wo&t=333s
+#minimal (default)
+#orbitron font
+#jblab_2021
 #easy-term
-
 # Original command with 'capr4n' as the theme
 command = 'oh-my-posh init pwsh --config "C:\\Users\\aryan\\AppData\\Local\\Programs\\oh-my-posh\\themes\\minimal.omp.json" | Invoke-Expression'
 

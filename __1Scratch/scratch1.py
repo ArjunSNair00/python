@@ -1,19 +1,3 @@
-n=int(input("Enter a number of elements: "))
-list_l=[]
-print("Enter the elements: ")
-for i in range(n):
-    number=int(input())
-    list_l.append(number)
-print("Entered list contains: \n",list_l)
-num=int(input("Enter number whose occurence to be removed: "))
-'''z
-for i in list_l:
-    if i==num:
-        list_l.remove(i)    
-'''
-sum=0
-while num in list_l:
-    sum+=1
-    list_l.remove(num)
-print("The updated list contains: \n",list_l)
-print("Count:",sum)
+n1=int(input("Enter 1st number: "))
+n2=int(input("Enter 2nd number: "))
+print("Sum:",n1+n2)

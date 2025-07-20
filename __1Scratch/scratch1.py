@@ -1,3 +1,12 @@
-n1=int(input("Enter 1st number: "))
-n2=int(input("Enter 2nd number: "))
-print("Sum:",n1+n2)
+r, c = map(int, input("Enter rows and columns: ").split())
+matrix = []
+
+print(f"Enter the elements of the {r}x{c} matrix row by row:")
+
+for _ in range(r):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+
+print("Matrix:")
+for row in matrix:
+    print(*row)

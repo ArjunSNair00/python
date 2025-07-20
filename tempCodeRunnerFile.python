@@ -1,0 +1,10 @@
+print("Matrix1:")
+r1, c1 = map(int, input("Enter number of rows and columns of matrix 1: ").split())
+matrix_1 = []
+print("Enter the elements of matrix1:")
+for i in range(r1):
+    a = []
+    for j in range(c1):
+        element = int(input(f"Enter element [{i+1}][{j+1}]: "))
+        a.append(element)
+    matrix_1.append(a)

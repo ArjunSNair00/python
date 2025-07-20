@@ -1,5 +1,5 @@
 n=int(input("Enter a number of elements: "))
-list_l=[] #hellooo
+list_l=[] #holllaaaaaabruhhhh
 print("Enter the elements: ")
 for i in range(n):
     number=int(input())

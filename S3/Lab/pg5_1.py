@@ -6,7 +6,7 @@ for i in range(n):
     list_l.append(number)
 print("Entered list contains: \n",list_l)
 num=int(input("Enter number whose occurence to be removed: "))
-'''
+'''z
 for i in list_l:
     if i==num:
         list_l.remove(i)    
